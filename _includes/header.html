@@ -7,9 +7,16 @@
       </button>
         <div class="ollapse navbar-collapse navbar-alt" id="navbarNav">
           <ul class="navbar-nav">
-            <li {% if page.path == "index.html" %} class="nav-item active" {% endif %} class="nav-item" >
-              <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+            <!--Blog-->
+            <li {% if page.path == "index.html" %} class="nav-item active dropdown-toggle" {% endif %} class="nav-item" >
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              href="{{ site.baseurl }}/index.html">Blog</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="{{ site.baseurl }}/index.html">Home</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/categories.html">Category</a>
+                </div>
             </li>
+
             <li {% if page.path == "portfolio.html" %} class="nav-item active" {% endif %} class="nav-item" >
                 <a class="nav-link" href="{{ site.baseurl }}/portfolio.html">Portfolio</a>
             </li>
