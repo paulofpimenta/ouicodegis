@@ -7,7 +7,7 @@
 
  .post-title {
    box-sizing: border-box;
-   color: rgb(106, 159, 181);
+   //color: rgb(106, 159, 181);
    font-family: "PT Sans", Helvetica, Arial, sans-serif;
    font-size: 20px;
    line-height: 30px;
@@ -29,31 +29,22 @@
    color: #9a9a9a;
  }
  
- .notes {
-   box-sizing: border-box;
-   color: rgb(49, 49, 49);
-   font-family: $base-font-family;
-   font-size: 30px;
-   font-weight: 400;
-   letter-spacing: -0.5px;
-   line-height: 37.5px;
-   margin-bottom: 10px;
-   margin-top: 20px;
-   text-rendering: optimizelegibility;
-}
-
 .post-tag {
   display: inline-block;
-  background: rgba($background-color, 0.15);
+  //background: rgba($background-color, 0.15);
+  background-color: rgba(106, 159, 181, 0.15);
   padding: 0 .5rem;
   margin-right: .5rem;
   border-radius: 4px;
-  color: black;
   font-family: $base-font-family;
   font-size: 90%;
+  line-height: 1.5;
+  color: black;
+
   &:before {
     font-family: 'Font Awesome 5 Free';
     display: inline-block;
+    //color:black;
     padding-right: .5em;
     vertical-align: middle;
   }
@@ -84,4 +75,20 @@
  padding-right: 0px;
  padding-top: 0px;
  text-rendering: optimizelegibility;
+}
+.tags-expo{
+  box-sizing: border-box;
+  color: rgb(81, 81, 81);
+  font-family: $base-font-family;
+  font-size: 20px;
+  line-height: 30px;
+  text-rendering: optimizelegibility;
+}
+.tags-expo-list{
+  box-sizing: border-box;
+  //color: rgb(81, 81, 81);
+  font-family: $base-font-family;
+  font-size: 18px;
+  line-height: 27px;
+  text-rendering: optimizelegibility;
 }

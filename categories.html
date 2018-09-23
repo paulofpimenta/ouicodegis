@@ -4,10 +4,10 @@ layout: default
 
 <div class="tags-expo">
   <br/><br/>
-  <h1>CATEGORIES</h1>
+  <h1>Categories</h1>
   <div class="tags-expo-list">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag fa fa-tags">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="fa fa-tags post-tag" >{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
