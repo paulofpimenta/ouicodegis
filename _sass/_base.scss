@@ -123,13 +123,20 @@ a {
 
 }
 
-
-
 .post-contents {
     background-color: white;
     padding: 15px;
     border: 1px solid #d9d9d9;
     overflow: auto;
+}
+
+.post-contents-shadow{
+    //width: 250px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .truncate {
@@ -314,18 +321,6 @@ pre {
         display: table;
         clear: both;
     }
-}
-
-/**
- * CV
- */
- .post-contents-shadow{
-    //width: 250px;
-    background-color: white;
-    padding: 15px;
-    border: 1px solid #d9d9d9;
-    overflow: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
