@@ -7,7 +7,7 @@ $link-color: #58B96B;
   margin: 0px auto;
   padding: 10px;
   list-style-type: none;
-  @media(max-width: 360px) {
+  @media(max-width: auto) {
     width: 100%;
     padding: 4em 0 1em 0;
   }
@@ -25,7 +25,7 @@ $link-color: #58B96B;
   }
   li {
     padding: 1em 0;
-    @media(max-width: 360px) {
+    @media(max-width: auto) {
       padding: 2em 0;
     }
     &::after {
