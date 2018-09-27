@@ -41,9 +41,9 @@ $link-color: $brand-color;
 
 .direction-r {
   position: relative;
-  //width: 500px;
+  width: auto;
   float: left;
-  @media(max-width: 320px) {
+  @media(max-width: auto) {
     float: left;
     width: 100%;
     text-align: left;
@@ -167,7 +167,7 @@ $link-color: $brand-color;
       text-decoration: underline;
     }
   }
-  @media(max-width: 320px) {
+  @media(max-width: auto) {
     position: relative;
     margin: 1em 1em 0 1em;
     padding: 1em;
