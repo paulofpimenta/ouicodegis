@@ -7,7 +7,7 @@ layout: default
   <h1>Categories</h1>
   <div class="tags-expo-list">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="fa fa-tags post-tag" >{{ tag[0] }}</a>
+    <a id="tags" href="#{{ tag[0] | slugify }}" class="fa fa-tags post-tag" id='tags'>{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
